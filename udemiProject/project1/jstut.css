@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #393E46;
+}
+.msg{
+    margin: 2rem;
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: #4ECCA3;
+    text-shadow: 5px 0 #232931;
+}
+.game{
+    margin-top: 3.5rem;
+    display :flex;
+    justify-content: center;
+    align-items: center;
+    gap :5rem;
+}
+.player{
+    display:flex;
+    flex-direction: column;
+    align-items : center;
+}
+.player img{
+    height: 10rem;
+    width:10rem ;
+}
+footer{
+    margin-top: 4rem;
+    text-align: center;
+    color: white;
+}
+.player p{
+    margin-bottom: 1.5rem;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    color: #4ECCA3;
+}
